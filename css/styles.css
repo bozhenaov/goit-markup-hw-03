@@ -4,7 +4,44 @@ body {
     color: #434455;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+button{
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* Header */
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -72,6 +109,10 @@ body {
 
 .solutions {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .solutions-title {
@@ -81,12 +122,17 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .solutions-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    margin: 0 auto;
+    display: block;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;;
@@ -99,6 +145,11 @@ body {
 }
 
 /* Section-2 */
+
+.advantages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .advantages-menu {
     list-style: none;
@@ -113,6 +164,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-item {
@@ -126,6 +178,8 @@ body {
 
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -136,6 +190,9 @@ body {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    max-width: 162px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .team-menu {
@@ -168,6 +225,8 @@ body {
 
 /* Section-4 */
 .portfolio {
+    padding-top: 120px;
+    padding-bottom: 121px;
 }
 
 .portfolio-title {
@@ -178,6 +237,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-menu {
@@ -193,6 +253,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -206,6 +267,8 @@ body {
 
 .footer {
     background: #2e2f42;
+    padding-top: 99px;
+    padding-bottom: 101px;
 }
 
 .footer-link {
@@ -217,6 +280,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5; 
     text-decoration: none;
+
 }
 
 .footer-logo-white{
@@ -235,4 +299,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
