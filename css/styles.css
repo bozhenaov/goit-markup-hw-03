@@ -57,6 +57,7 @@ img{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container{
@@ -80,6 +81,7 @@ img{
     text-transform: uppercase;
     color: #4d5ae5; 
     text-decoration: none;
+    margin-right: 76px;
 }
 
 
@@ -106,6 +108,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -149,7 +152,7 @@ img{
     width: 1440px;
     height: 600px;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 
 .solutions-title {
@@ -165,7 +168,6 @@ img{
 }
 
 .solutions-button {
-    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -173,6 +175,8 @@ img{
     display: block;
     letter-spacing: 0.04em;
     border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
     border: none;
     color: #fff;
     cursor: pointer;;
@@ -226,6 +230,11 @@ img{
     padding-bottom: 120px;
 }
 
+.team-div{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -236,7 +245,7 @@ img{
     color: #2e2f42;
     max-width: 163px;
     margin: 0 auto;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-menu {
@@ -280,7 +289,7 @@ img{
 /* Section-4 */
 .portfolio {
     padding-top: 120px;
-    padding-bottom: 121px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -303,10 +312,9 @@ img{
 }
 
 .portfolio-list{
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -336,8 +344,8 @@ img{
 
 .footer {
     background: #2e2f42;
-    padding-top: 99px;
-    padding-bottom: 101px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -349,7 +357,8 @@ img{
     text-transform: uppercase;
     color: #4d5ae5; 
     text-decoration: none;
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-white{
